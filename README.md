@@ -9,7 +9,7 @@
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=jaykingg&layout=compact&theme=dark)](https://github.com/anuraghazra/github-readme-stats) -->
 
 ## Resume
-[jayking's History]([https://www.naver.com](https://jaykingg.github.io/))
+[jayking's History](https://jaykingg.github.io/)
 </br>
 
 ## Languages and Tools
