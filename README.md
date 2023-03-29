@@ -9,7 +9,8 @@
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=jaykingg&layout=compact&theme=dark)](https://github.com/anuraghazra/github-readme-stats) -->
 
 ## Resume
-[jayking Notion Resume](https://jaykingg.notion.site/jaykingg/Hello-World-dbbfc2499e80432a9c9cdff47e566b42))
+[jayking Notion Resume](https://jaykingg.notion.site/jaykingg/Hello-World-dbbfc2499e80432a9c9cdff47e566b42)
+[jayking Resueme.io](https://jaykingg.github.io/)
 </br>
 
 ## Languages and Tools
