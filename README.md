@@ -9,7 +9,7 @@
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=jaykingg&layout=compact&theme=dark)](https://github.com/anuraghazra/github-readme-stats) -->
 
 ## Resume
-[jayking Notion Resume](https://jaykingg.notion.site/jaykingg/Hello-World-dbbfc2499e80432a9c9cdff47e566b42) </br>
+[jayking Notion Resume](https://jaykingg.notion.site/86-400-30c93bcf93f84668a11a875d0c701215) </br>
 [jayking Resueme.io](https://jaykingg.github.io/)
 </br>
 
