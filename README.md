@@ -10,7 +10,6 @@
 
 ## Resume
 [jayking Notion Resume](https://jaykingg.notion.site/Public-Resume-Career-ec694bdc032a4afe921dea5a225ac0e3)</br>
-[jayking Resueme.io](https://jaykingg.github.io/)
 </br>
 
 ## Languages and Tools
