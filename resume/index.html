@@ -1,0 +1,288 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="robots" content="noindex, nofollow, noarchive, nosnippet" />
+<meta name="googlebot" content="noindex, nofollow" />
+<title>Jay King · 이력서</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=Spectral:wght@300;400;500&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --ink:#0E1420; --paper:#F7F5F0; --paper-2:#EEEBE2;
+  --amber:#D98A2B; --amber-soft:#E8A33D;
+  --slate:#5B6672; --slate-soft:#8A93A0;
+  --sage:#5E8A6E; --line:#D9D4C8;
+  --bg:var(--paper); --fg:var(--ink); --muted:var(--slate);
+  --card:#FFFFFFcc; --card-line:var(--line); --rail:#12192688;
+  --accent:var(--amber); --good:var(--sage);
+}
+@media (prefers-color-scheme: dark){
+  :root{
+    --bg:#0E1420; --fg:#ECE7DC; --muted:#9AA3B0;
+    --paper-2:#161E2B; --line:#232C3A; --card:#141C29; --card-line:#232C3A;
+    --rail:#0A0F18; --accent:var(--amber-soft); --good:#7FA98C; --slate-soft:#727C8A;
+  }
+}
+:root[data-theme="light"]{
+  --bg:var(--paper); --fg:var(--ink); --muted:var(--slate);
+  --paper-2:#EEEBE2; --line:#D9D4C8; --card:#FFFFFFcc; --card-line:#D9D4C8;
+  --rail:#12192688; --accent:var(--amber); --good:var(--sage); --slate-soft:#8A93A0;
+}
+:root[data-theme="dark"]{
+  --bg:#0E1420; --fg:#ECE7DC; --muted:#9AA3B0;
+  --paper-2:#161E2B; --line:#232C3A; --card:#141C29; --card-line:#232C3A;
+  --rail:#0A0F18; --accent:var(--amber-soft); --good:#7FA98C; --slate-soft:#727C8A;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0; background:var(--bg); color:var(--fg);
+  font-family:"Spectral",Georgia,serif; font-weight:400;
+  line-height:1.6; -webkit-font-smoothing:antialiased;
+  font-size:17px;
+}
+.wrap{max-width:1120px; margin:0 auto; padding:0 clamp(20px,4vw,48px)}
+.grid{display:grid; grid-template-columns:300px 1fr; gap:clamp(32px,5vw,72px); align-items:start}
+@media(max-width:820px){ .grid{grid-template-columns:1fr; gap:40px} }
+
+/* ---------- Sidebar ---------- */
+.rail{position:sticky; top:0; padding:clamp(32px,5vw,56px) 0}
+@media(max-width:820px){ .rail{position:static; padding-bottom:0} }
+.eyebrow{
+  font-family:"IBM Plex Mono",monospace; font-size:12px; font-weight:500;
+  letter-spacing:.22em; text-transform:uppercase; color:var(--accent);
+}
+.name{
+  font-family:"Newsreader",serif; font-weight:600; font-size:clamp(38px,6vw,52px);
+  line-height:.98; letter-spacing:-.02em; margin:.35rem 0 .1rem; text-wrap:balance;
+}
+.name .ko{display:block; font-size:.46em; font-weight:500; color:var(--muted); letter-spacing:0; margin-top:.5rem}
+.role{font-size:15px; color:var(--muted); margin:.9rem 0 0; line-height:1.45}
+.contact{list-style:none; margin:1.8rem 0 0; padding:0; display:flex; flex-direction:column; gap:.55rem}
+.contact a,.contact span{
+  font-family:"IBM Plex Mono",monospace; font-size:13px; color:var(--fg);
+  text-decoration:none; display:flex; gap:.6rem; align-items:center;
+}
+.contact a:hover{color:var(--accent)}
+.contact .k{color:var(--slate-soft)}
+.metrics{margin-top:2rem; border-top:1px solid var(--line); padding-top:1.5rem; display:flex; flex-direction:column; gap:1.1rem}
+.metric{display:flex; flex-direction:column; gap:.15rem}
+.metric b{font-family:"IBM Plex Mono",monospace; font-size:24px; font-weight:600; color:var(--fg); font-variant-numeric:tabular-nums; letter-spacing:-.01em}
+.metric b .arw{color:var(--good); font-size:.7em}
+.metric span{font-size:12.5px; color:var(--muted); font-family:"IBM Plex Mono",monospace; letter-spacing:.02em}
+
+/* ---------- Main ---------- */
+main{padding:clamp(32px,5vw,56px) 0 88px}
+.lede{
+  font-family:"Newsreader",serif; font-weight:400; font-size:clamp(22px,3.2vw,29px);
+  line-height:1.34; letter-spacing:-.01em; margin:0 0 .6rem; text-wrap:balance;
+}
+.lede em{font-style:italic; color:var(--accent)}
+.sub{color:var(--muted); font-size:15.5px; margin:0 0 1.2rem}
+.tags{display:flex; flex-wrap:wrap; gap:.4rem; margin-bottom:2.6rem}
+.tag{
+  font-family:"IBM Plex Mono",monospace; font-size:11.5px; letter-spacing:.04em;
+  padding:.28rem .6rem; border:1px solid var(--card-line); border-radius:2px;
+  color:var(--muted); background:var(--paper-2);
+}
+section{margin-top:3rem}
+.sec-head{display:flex; align-items:baseline; gap:.9rem; margin-bottom:1.4rem}
+.sec-head h2{
+  font-family:"IBM Plex Mono",monospace; font-size:13px; font-weight:600;
+  letter-spacing:.2em; text-transform:uppercase; color:var(--fg); margin:0;
+}
+.sec-head .rule{flex:1; height:1px; background:var(--line)}
+
+/* timeline */
+.job{
+  position:relative; padding-left:1.6rem; padding-bottom:2.2rem;
+  border-left:1px solid var(--line);
+}
+.job:last-child{border-left-color:transparent; padding-bottom:0}
+.job::before{
+  content:""; position:absolute; left:-4.5px; top:.5rem; width:8px; height:8px;
+  border-radius:50%; background:var(--accent); box-shadow:0 0 0 4px var(--bg);
+}
+.job.past::before{background:var(--slate-soft)}
+.job-top{display:flex; flex-wrap:wrap; align-items:baseline; gap:.5rem .9rem; margin-bottom:.15rem}
+.job-title{font-family:"Newsreader",serif; font-size:21px; font-weight:600; letter-spacing:-.01em; margin:0}
+.job-co{font-size:15px; color:var(--muted)}
+.job-when{
+  font-family:"IBM Plex Mono",monospace; font-size:12px; color:var(--slate-soft);
+  letter-spacing:.03em; margin-left:auto; white-space:nowrap;
+}
+.job-note{font-size:14.5px; color:var(--muted); margin:.5rem 0 .9rem; font-style:italic}
+.job ul{list-style:none; margin:0; padding:0; display:flex; flex-direction:column; gap:.55rem}
+.job li{position:relative; padding-left:1.1rem; font-size:15.5px; line-height:1.5}
+.job li::before{content:"—"; position:absolute; left:0; color:var(--accent); font-family:"IBM Plex Mono",monospace}
+.job li b{font-weight:500; color:var(--fg); background:linear-gradient(transparent 62%, color-mix(in srgb, var(--accent) 22%, transparent) 0); padding:0 1px}
+.stack{font-family:"IBM Plex Mono",monospace; font-size:12px; color:var(--slate-soft); margin-top:.9rem; letter-spacing:.02em}
+
+/* highlight cards */
+.cards{display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:1px; background:var(--card-line); border:1px solid var(--card-line); border-radius:3px; overflow:hidden}
+.pcard{background:var(--bg); padding:1.2rem 1.3rem}
+.pcard h3{font-family:"Newsreader",serif; font-size:17px; font-weight:600; margin:0 0 .3rem}
+.pcard p{font-size:14px; color:var(--muted); margin:0; line-height:1.5}
+.pcard .big{font-family:"IBM Plex Mono",monospace; font-size:15px; color:var(--accent); font-weight:600; display:block; margin-bottom:.4rem}
+
+.foot{margin-top:3.5rem; padding-top:1.4rem; border-top:1px solid var(--line); font-family:"IBM Plex Mono",monospace; font-size:12px; color:var(--slate-soft); display:flex; justify-content:space-between; flex-wrap:wrap; gap:.6rem}
+.foot a{color:var(--slate-soft); text-decoration:none}
+.foot a:hover{color:var(--accent)}
+
+.themebtn{
+  position:fixed; top:16px; right:16px; z-index:10; width:38px; height:38px; border-radius:50%;
+  border:1px solid var(--card-line); background:var(--card); color:var(--fg); cursor:pointer;
+  font-size:15px; display:grid; place-items:center; backdrop-filter:blur(6px);
+}
+.themebtn:focus-visible{outline:2px solid var(--accent); outline-offset:2px}
+a:focus-visible{outline:2px solid var(--accent); outline-offset:3px; border-radius:2px}
+@media print{ .themebtn{display:none} body{background:#fff; color:#000; font-size:12pt} .rail{position:static} }
+</style>
+</head>
+<body>
+<button class="themebtn" id="themebtn" aria-label="테마 전환">◐</button>
+<div class="wrap">
+  <div class="grid">
+
+    <!-- Sidebar -->
+    <aside class="rail">
+      <div class="eyebrow">Backend Engineer · PLE</div>
+      <h1 class="name">Jay King<span class="ko">모준서</span></h1>
+      <p class="role">글로벌 3PL 멀티테넌트 WMS를 설계·운영하는 백엔드 엔지니어. 8인 스쿼드를 리딩하며 PM을 실질 겸임합니다.</p>
+
+      <ul class="contact">
+        <li><a href="mailto:mojunseo49@gmail.com"><span class="k">✉</span> mojunseo49@gmail.com</a></li>
+        <li><a href="https://github.com/jaykingg" target="_blank" rel="noopener"><span class="k">⌥</span> github.com/jaykingg</a></li>
+        <li><a href="https://jaykingg.notion.site/Public-Resume-Career-ec694bdc032a4afe921dea5a225ac0e3" target="_blank" rel="noopener"><span class="k">▤</span> Notion Resume</a></li>
+      </ul>
+
+      <div class="metrics">
+        <div class="metric"><b>99.99<span style="font-size:.6em">%</span></b><span>service availability</span></div>
+        <div class="metric"><b>&lt;1<span style="font-size:.6em">min</span> <span class="arw">↓96.6%</span></b><span>MTTR (from 30min)</span></div>
+        <div class="metric"><b>5<span style="font-size:.6em"> · </span>4</b><span>tenants · regions</span></div>
+        <div class="metric"><b>20,000<span style="font-size:.6em">+</span></b><span>monthly outbound</span></div>
+      </div>
+    </aside>
+
+    <!-- Main -->
+    <main>
+      <p class="lede">비즈니스를 이해하고, 시스템이 <em>올바르게 작동하는 맥락</em>을 설계하는 엔지니어.</p>
+      <p class="sub">물류 시스템에서 가장 무서운 장애는 조용히 일어납니다. 에러 없이 잘못된 값이 쌓이고, 조건이 갖춰지기 전까지 드러나지 않죠. 그래서 코드가 동작하는 것보다 <b>시스템이 이상을 스스로 드러내는 구조</b>를 먼저 생각합니다.</p>
+      <div class="tags">
+        <span class="tag">Multi-tenancy</span><span class="tag">Hexagonal</span><span class="tag">EDA / Kafka</span>
+        <span class="tag">DDD</span><span class="tag">Kotlin · Spring</span><span class="tag">MSA</span><span class="tag">Observability</span>
+      </div>
+
+      <!-- Signature work -->
+      <section>
+        <div class="sec-head"><h2>Signature Work</h2><div class="rule"></div></div>
+        <div class="cards">
+          <div class="pcard"><span class="big">14단계 → 1 API</span><h3>테넌트 온보딩 자동화</h3><p>수동 SQL 14단계를 단일 트랜잭션 API로 압축. 순서 오류·누락 장애 원천 차단, JS·JP 신규 리전에 실제 적용.</p></div>
+          <div class="pcard"><span class="big">1 row → 0 중단</span><h3>Shopify 동기화 격리</h3><p>1개 결함이 채널 전체 sync를 멈추던 구조 재설계. JDBC savepoint row-level fallback + REQUIRES_NEW 격리 + 4단계 알람.</p></div>
+          <div class="pcard"><span class="big">50 req/s 방어</span><h3>Redis Rate Limiting</h3><p>매크로 트래픽 발 DB Read-Pool 고갈 장애 재발 차단. 세션 단위 제한 + Slack 알림 + 관리자 즉시 해제 API.</p></div>
+          <div class="pcard"><span class="big">3s → 1s (66%↓)</span><h3>송장 렌더링 엔진 (LMS)</h3><p>ZPL 텍스트 → Graphics2D 비트맵 전환으로 프린터 폰트 의존성 완전 제거. 100장 연속 CPU 7.68%.</p></div>
+        </div>
+      </section>
+
+      <!-- Experience -->
+      <section>
+        <div class="sec-head"><h2>Experience</h2><div class="rule"></div></div>
+
+        <div class="job">
+          <div class="job-top">
+            <h3 class="job-title">Engineering Manager / PLE</h3>
+            <span class="job-co">콜로세움 코퍼레이션</span>
+            <span class="job-when">2024.04 — 현재</span>
+          </div>
+          <p class="job-note">글로벌 3PL · 멀티테넌트 WMS · 30명 조직 내 8인 스쿼드 리딩</p>
+          <ul>
+            <li><b>5개 테넌트 · 4개 리전</b> WMS 순차 활성화 주도 (WAC 싱가포르 → JS 일본 → JP-DAIWA 도쿄), ECS 기동 이슈 전수 해결</li>
+            <li>가용성 <b>99.6% → 99.99%</b>, MTTR 30분 → <b>1분 이내(96.6%↓)</b>, 롤백 1시간 → 5분(91.6%↓) — Major 장애 월 0건</li>
+            <li>DORA <b>Change Failure Rate 10.1%</b> 실측 (5개 레포 725 PR 분석) — 데이터 기반 팀 KPI 체계 수립</li>
+            <li>Feature Flag 엔진 설계 — 기능·테넌트·창고·유저별 정밀 제어 + Backoffice 관리 API</li>
+            <li>시크릿 관리 전면 개편 — 평문 시크릿 193건을 SSM + ECS Task Role로 이관, 신규 개발자 <b>.env 단일 파일</b>로 즉시 부팅</li>
+            <li>대규모 데드코드 안전 제거 — OMS 3,225줄(77파일) 동작 변경 0, BFS 호출체인 추적 + loop-until-dry 검증 방법론 확립</li>
+            <li><b>GS 인증 1등급</b> 획득 (헥사고날 아키텍처로 도메인-인프라 분리) · AI 워크플로우·지식 자산화 시스템 자체 설계·팀 배포</li>
+          </ul>
+          <p class="stack">Kotlin · Spring Boot · MySQL · JPA · QueryDSL · GraphQL · MSK · ECS · GitHub Actions</p>
+        </div>
+
+        <div class="job">
+          <div class="job-top">
+            <h3 class="job-title">BackEnd Developer</h3>
+            <span class="job-co">하비풀</span>
+            <span class="job-when">2022.06 — 2023.02</span>
+          </div>
+          <p class="job-note">MSA 전환 및 신규 서비스 런칭</p>
+          <ul>
+            <li>Monolithic → <b>MSA · EDA</b> 전환, 주문·장바구니 도메인 독립 배포 + Kafka 기반 이벤트 아키텍처</li>
+            <li>Webflux Consumer 레이어 <b>Thread Blocking 구간 규명·제거</b> → CoroutineCrudRepository로 Non-blocking 흐름 복구</li>
+            <li><code>@Transactional</code> 프록시 내부 호출 함정 규명 — 주문·결제 물리 분리로 트랜잭션 원자성 확보</li>
+            <li>Kotest 기반 통합 테스트 커버리지 <b>80%</b> 달성</li>
+          </ul>
+          <p class="stack">Kotlin · Spring Webflux · Coroutine · MongoDB · MSK · ECS · Docker</p>
+        </div>
+
+        <div class="job past">
+          <div class="job-top">
+            <h3 class="job-title">Enterprise Developer</h3>
+            <span class="job-co">마드라스체크</span>
+            <span class="job-when">2020.08 — 2022.06</span>
+          </div>
+          <p class="job-note">협업툴 '플로우' 엔터프라이즈 내부망(On-premise) 버전 개발</p>
+          <ul>
+            <li>기업별 보안 모듈 커스터마이징 — 업로드·다운로드 제한, 문서 암호화 솔루션 연동, 폐쇄망 Linux 서버 구성</li>
+            <li>출근 시간대 수천 명 동시 접속 병목 진단 → 상태 데이터 <b>Redis 분리</b>로 메인 DB 트랜잭션 경합 해소</li>
+            <li>SOLID 기반 레거시 리팩토링 — 배포·QA 소요 <b>70% 단축</b> (3~5시간 → 30분~2시간)</li>
+          </ul>
+          <p class="stack">Java · JSP · Postgres · Redis · Nginx · EC2</p>
+        </div>
+
+        <div class="job past">
+          <div class="job-top">
+            <h3 class="job-title">IT Financial Developer</h3>
+            <span class="job-co">콜로세움 코퍼레이션</span>
+            <span class="job-when">2018.06 — 2019.06</span>
+          </div>
+          <ul>
+            <li>사내·법인 ERP 회계 모듈 유지보수 및 재무 프로세스 최적화</li>
+            <li>파일 저장 방식 소스 관리를 <b>VCS로 전환</b>하여 협업 효율성 제고</li>
+          </ul>
+          <p class="stack">Java · OracleDB</p>
+        </div>
+      </section>
+
+      <!-- Focus -->
+      <section>
+        <div class="sec-head"><h2>Now Thinking About</h2><div class="rule"></div></div>
+        <ul style="list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:.7rem">
+          <li style="padding-left:1.1rem;position:relative;font-size:15.5px"><span style="position:absolute;left:0;color:var(--accent);font-family:'IBM Plex Mono',monospace">→</span> 이상을 숨기는 시스템 vs. 이상을 드러내는 시스템 — 그 차이를 만드는 설계 결정들</li>
+          <li style="padding-left:1.1rem;position:relative;font-size:15.5px"><span style="position:absolute;left:0;color:var(--accent);font-family:'IBM Plex Mono',monospace">→</span> 비즈니스 정책이 코드에 정확히 구현됐는지 확인하는 방법, 그리고 잘못됐을 때 어떻게 발견되는가</li>
+          <li style="padding-left:1.1rem;position:relative;font-size:15.5px"><span style="position:absolute;left:0;color:var(--accent);font-family:'IBM Plex Mono',monospace">→</span> 자동화가 사람의 반복을 줄이고, 그 자동화가 다시 도메인 지식을 쌓는 사이클</li>
+        </ul>
+      </section>
+
+      <div class="foot">
+        <span>Jay King · 모준서 · Backend Engineer</span>
+        <a href="https://github.com/jaykingg" target="_blank" rel="noopener">github.com/jaykingg ↗</a>
+      </div>
+    </main>
+  </div>
+</div>
+
+<script>
+(function(){
+  var btn=document.getElementById('themebtn');
+  var root=document.documentElement;
+  btn.addEventListener('click',function(){
+    var cur=root.getAttribute('data-theme');
+    if(!cur){ cur=matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'; }
+    root.setAttribute('data-theme', cur==='dark'?'light':'dark');
+  });
+})();
+</script>
+</body>
+</html>
