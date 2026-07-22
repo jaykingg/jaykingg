@@ -3,8 +3,11 @@
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&pause=1000&color=36BCF7&center=true&vCenter=true&width=650&lines=Hi+there%2C+I'm+Jayking+%F0%9F%91%8B;Backend+Engineer+%C2%B7+Engineering+Manager;Multi-tenant+WMS+%C2%B7+5+tenants+%C2%B7+4+regions;99.99%25+availability%2C+where+failures+can't+hide" alt="Typing SVG" />
 
 <p>
+  <a href="https://jaykingg.github.io/resume/">
+    <img src="https://img.shields.io/badge/Resume-D98A2B?style=for-the-badge&logo=readdotcv&logoColor=white" alt="Web Resume" />
+  </a>
   <a href="https://jaykingg.notion.site/Public-Resume-Career-ec694bdc032a4afe921dea5a225ac0e3">
-    <img src="https://img.shields.io/badge/Notion_Resume-000000?style=for-the-badge&logo=notion&logoColor=white" alt="Resume" />
+    <img src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white" alt="Notion Resume" />
   </a>
 </p>
 
