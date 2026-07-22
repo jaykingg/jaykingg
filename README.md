@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&pause=1000&color=36BCF7&center=true&vCenter=true&width=650&lines=Hi+there%2C+I'm+Jayking+%F0%9F%91%8B;Backend+Engineer+%C2%B7+Engineering+Manager;Multi-tenant+WMS+%C2%B7+5+tenants+%C2%B7+4+regions;99.99%25+availability%2C+where+failures+can't+hide" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&pause=1000&color=36BCF7&center=true&vCenter=true&width=650&lines=Hi+there%2C+I'm+Jayking+%F0%9F%91%8B;Backend+Engineer+%C2%B7+Engineering+Manager; Multi-tenant+WMS+%C2%B7+5+tenants+%C2%B7+4+regions;99.99%25+availability%2C+where+failures+can't+hide" alt="Typing SVG" />
 
 <p>
   <a href="https://jaykingg.notion.site/Public-Resume-Career-ec694bdc032a4afe921dea5a225ac0e3">
@@ -18,7 +18,7 @@
 
 ```yaml
 name: Jayking (모준서)
-role: Backend Engineer / Engineering Manager (5+ years)
+role: Backend Engineer / (PLE) Project Lead Engineer (7+ years)
 now: 글로벌 3PL · 멀티테넌트 WMS 설계·운영 · 8인 스쿼드 리딩 (PM 겸임)
 values:
   - 선한 영향력을 가진 사람          # Good influence
