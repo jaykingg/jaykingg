@@ -155,9 +155,9 @@ a:focus-visible{outline:2px solid var(--accent); outline-offset:3px; border-radi
 
     <!-- Sidebar -->
     <aside class="rail">
-      <div class="eyebrow">Backend Engineer · PLE</div>
+      <div class="eyebrow">Product Lead Engineer · Backend</div>
       <h1 class="name">Jay King<span class="ko">모준서</span></h1>
-      <p class="role">글로벌 3PL 멀티테넌트 WMS를 설계·운영하는 백엔드 엔지니어. 8인 스쿼드를 리딩하며 PM을 실질 겸임합니다.</p>
+      <p class="role">글로벌 3PL 멀티테넌트 WMS 를 설계·운영하는 Product Lead Engineer.<br>8인 스쿼드의 배포 일정과 회고를 맡고, 기획과 코드 정책을 문서로 정의합니다.</p>
 
       <ul class="contact">
         <li><a href="mailto:mojunseo49@gmail.com"><span class="k">✉</span> mojunseo49@gmail.com</a></li>
@@ -166,30 +166,33 @@ a:focus-visible{outline:2px solid var(--accent); outline-offset:3px; border-radi
       </ul>
 
       <div class="metrics">
-        <div class="metric"><b>99.99<span style="font-size:.6em">%</span></b><span>service availability</span></div>
-        <div class="metric"><b>&lt;1<span style="font-size:.6em">min</span> <span class="arw">↓96.6%</span></b><span>MTTR (from 30min)</span></div>
+        <div class="metric"><b>99.99<span style="font-size:.6em">%</span></b><span>service availability (from 99.6%)</span></div>
+        <div class="metric"><b>&lt;1<span style="font-size:.6em">min</span></b><span>MTTR (from 30min)</span></div>
+        <div class="metric"><b>5.4<span style="font-size:.6em">%</span> <span class="arw">↓ from 10.1%</span></b><span>change failure rate (2026 H1)</span></div>
         <div class="metric"><b>5<span style="font-size:.6em"> · </span>4</b><span>tenants · regions</span></div>
-        <div class="metric"><b>1.6~2.3<span style="font-size:.6em">만</span></b><span>monthly outbound (2026.06~08)</span></div>
+        <div class="metric"><b>432</b><span>domain rules, team policy hub</span></div>
       </div>
     </aside>
 
     <!-- Main -->
     <main>
-      <p class="lede">비즈니스를 이해하고, 시스템이 <em>올바르게 작동하는 맥락</em>을 설계하는 엔지니어.</p>
-      <p class="sub">물류 시스템에서 가장 무서운 장애는 조용히 일어납니다. 에러 없이 잘못된 값이 쌓이고, 조건이 갖춰지기 전까지 드러나지 않죠. 그래서 코드가 동작하는 것보다 <b>시스템이 이상을 스스로 드러내는 구조</b>를 먼저 생각합니다.</p>
+      <p class="lede">AI 가 일하는 환경을 만들고, <em>사람이 검토하는 단계</em>를 설계하는 엔지니어.</p>
+      <p class="sub">AI 가 자동으로 할 수 있는 일은 환경을 만들어 맡기고, 그렇게 생긴 시간을 사람의 검토와 정제에 씁니다.<br>자동화의 목적은 사람을 빼는 게 아니라 사람이 검토할 시간을 만드는 것이기 때문입니다.<br>물류 시스템에서 가장 위험한 장애는 에러 없이 잘못된 값이 쌓이는 장애라서, 기능이 동작하는지보다 <b>이상이 바로 드러나는지</b>를 먼저 봅니다.</p>
       <div class="tags">
-        <span class="tag">Multi-tenancy</span><span class="tag">Hexagonal</span><span class="tag">EDA / Kafka</span>
-        <span class="tag">DDD</span><span class="tag">Kotlin · Spring</span><span class="tag">MSA</span><span class="tag">Observability</span><span class="tag">AI-Native</span>
+        <span class="tag">AI-Native</span><span class="tag">Claude Code</span><span class="tag">Product Lead</span><span class="tag">Multi-tenancy</span>
+        <span class="tag">Hexagonal</span><span class="tag">DDD</span><span class="tag">EDA / Kafka</span><span class="tag">Kotlin · Spring</span><span class="tag">Observability</span>
       </div>
 
       <!-- Signature work -->
       <section>
         <div class="sec-head"><h2>Signature Work</h2><div class="rule"></div></div>
         <div class="cards">
-          <div class="pcard"><span class="big">14단계 → 1 API</span><h3>테넌트 온보딩 자동화</h3><p>수동 SQL 14단계를 단일 트랜잭션 API로 압축. 순서 오류·누락 장애 원천 차단, JS·JP 신규 리전에 실제 적용.</p></div>
-          <div class="pcard"><span class="big">1 row → 0 중단</span><h3>Shopify 동기화 격리</h3><p>1개 결함이 채널 전체 sync를 멈추던 구조 재설계. JDBC savepoint row-level fallback + REQUIRES_NEW 격리 + 4단계 알람.</p></div>
-          <div class="pcard"><span class="big">50 req/s 방어</span><h3>Redis Rate Limiting</h3><p>매크로 트래픽 발 DB Read-Pool 고갈 장애 재발 차단. 세션 단위 제한 + Slack 알림 + 관리자 즉시 해제 API.</p></div>
-          <div class="pcard"><span class="big">3s → 1s (66%↓)</span><h3>송장 렌더링 엔진 (LMS)</h3><p>ZPL 텍스트 → Graphics2D 비트맵 전환으로 프린터 폰트 의존성 완전 제거. 100장 연속 CPU 7.68%.</p></div>
+          <div class="pcard"><span class="big">작업 끝 = 문서 갱신</span><h3>AI 작업 흐름 설계</h3><p>티켓 분석 → 구현 → 리뷰 → PR → 문서를 Claude Code 스킬로 한 흐름으로. 결과는 사람이 diff 와 근거를 검토한 뒤 반영. ADR 279건 · 지식 문서 1,144건 누적.</p></div>
+          <div class="pcard"><span class="big">432 rules · CI 차단</span><h3>팀 정책 저장소 + 플러그인</h3><p>7개 도메인 규칙을 ID 로 이관, 세션 시작 hook 이 규칙을 먼저 읽게 함. 팀원 5명이 직접 PR 12건, 정책 판정 누락 PR 은 4개 레포에서 머지 차단.</p></div>
+          <div class="pcard"><span class="big">74회 · 24회</span><h3>배포 일정 · 회고 운영</h3><p>리전별 배포 리스트업·시각 확정·사전 공지 74회. 2024-08 부터 스프린트 회고 24회 주최, DORA 기반 팀 KPI 와 성과 등급 기준 초안.</p></div>
+          <div class="pcard"><span class="big">ADR 46 · 테스트 446</span><h3>입고 v1 → v2 전면 이관</h3><p>회차·검수·CS·적치·폐기 상태머신 3단계 재구축. 운영 1,191건 미완료 정체 해소, v2 커버리지 75.6%.</p></div>
+          <div class="pcard"><span class="big">14단계 → 1 API</span><h3>테넌트 온보딩 자동화</h3><p>수동 SQL 14단계를 단일 트랜잭션 API 로 압축. 순서 오류·누락 장애 원천 차단, JS·JP 신규 리전에 실제 적용.</p></div>
+          <div class="pcard"><span class="big">설명과 확정의 분리</span><h3>운영 요청 인입 체계</h3><p>엔지니어 직접 소통의 위험을 정리해 제안. 고객사 채널 통합·인입 형식·긴급 기준·창구 일원화를 Slack 워크플로로 제품화.</p></div>
         </div>
       </section>
 
@@ -199,21 +202,22 @@ a:focus-visible{outline:2px solid var(--accent); outline-offset:3px; border-radi
 
         <div class="job">
           <div class="job-top">
-            <h3 class="job-title">Engineering Manager / PLE</h3>
+            <h3 class="job-title">Product Lead Engineer</h3>
             <span class="job-co">콜로세움 코퍼레이션</span>
             <span class="job-when">2024.04 — 현재</span>
           </div>
-          <p class="job-note">글로벌 3PL · 멀티테넌트 WMS · 30명 조직 내 8인 스쿼드 리딩</p>
+          <p class="job-note">글로벌 3PL · 멀티테넌트 WMS · 8인 스쿼드(PM 1 · FE 2 · BE 4 · QA 1) 배포·회고 운영 · 2024-10 PLE 지정</p>
           <ul>
-            <li><b>5개 테넌트 · 4개 리전</b> WMS 순차 활성화 주도 (WAC 싱가포르 → JS 일본 → JP-DAIWA 도쿄), ECS 기동 이슈 전수 해결</li>
-            <li>가용성 <b>99.6% → 99.99%</b>, MTTR 30분 → <b>1분 이내(96.6%↓)</b>, 롤백 1시간 → 5분(91.6%↓) — Major 장애 월 0건</li>
-            <li>DORA <b>Change Failure Rate 10.1%</b> 실측 (5개 레포 725 PR 분석) — 데이터 기반 팀 KPI 체계 수립</li>
-            <li>Feature Flag 엔진 설계 — 기능·테넌트·창고·유저별 정밀 제어 + Backoffice 관리 API</li>
-            <li>시크릿 관리 전면 개편 — 평문 시크릿 193건을 SSM + ECS Task Role로 이관, 신규 개발자 <b>.env 단일 파일</b>로 즉시 부팅</li>
-            <li>대규모 데드코드 안전 제거 — OMS 3,225줄(77파일) 동작 변경 0, BFS 호출체인 추적 + loop-until-dry 검증 방법론 확립</li>
-            <li><b>GS 인증 1등급</b> 획득 (헥사고날 아키텍처로 도메인-인프라 분리) · AI 워크플로우·지식 자산화 시스템 자체 설계·팀 배포</li>
+            <li><b>AI 작업 방식 설계·팀 배포</b>: 분석·구현·리뷰·문서화를 한 흐름으로 묶고 결과는 사람이 검토. 근거 없는 문장은 미검증 표시, 문서·코드 괴리는 린트로 탐지</li>
+            <li><b>팀 정책 저장소 + Claude Code 플러그인</b>: 7개 도메인 규칙 432건 ID 이관, 팀원 5명 PR 12건, 정책 판정 누락 PR 은 CI 가 머지 차단. Jira 상태 자동 전이(PR 이벤트 5종 · 4개 레포 · 코드 변경 0)</li>
+            <li><b>프로덕트 운영</b>: 리전별 배포 일정 74회 · 회고 24회 주최 · PRD 2종 · 팀 KPI(DORA) 체계와 성과 등급 기준 초안 · GS 인증 일정 관리</li>
+            <li><b>협업 조율</b>: "설명과 확정의 분리" 로 운영 요청 인입 체계 제품화, Product·QA·CEIP·데이터·인프라 협업 방식 합의, 인시던트 커뮤니케이션 12건</li>
+            <li><b>5개 테넌트 · 4개 리전</b> WMS 순차 활성화 주도 (WAC 싱가포르 2025-11 → JS 일본 2026-03 → JP-DAIWA 2026-05)</li>
+            <li>가용성 <b>99.6% → 99.99%</b>, MTTR 30분 → <b>1분 이내</b>, Change Failure Rate <b>10.1% → 5.4%</b>(2026 상반기 잠정), Major 장애 월 0건</li>
+            <li>입고 v1 → v2 전면 이관(ADR 46 · 테스트 446), 구 API <b>5,657줄</b> 삭제, 레포 5 → 3 통합으로 월 $630 절감, PR 체크 14 → 3</li>
+            <li>Feature Flag 엔진 · Redis Rate Limiting · Shopify 동기화 격리 · 시크릿 193건 SSM 이관 · <b>GS 인증 1등급</b></li>
           </ul>
-          <p class="stack">Kotlin · Spring Boot · MySQL · JPA · QueryDSL · GraphQL · MSK · ECS · GitHub Actions</p>
+          <p class="stack">Kotlin · Spring Boot · MySQL(Aurora) · JPA · QueryDSL · GraphQL · Redis · MSK · ECS · GitHub Actions · Claude Code</p>
         </div>
 
         <div class="job">
@@ -225,8 +229,8 @@ a:focus-visible{outline:2px solid var(--accent); outline-offset:3px; border-radi
           <p class="job-note">MSA 전환 및 신규 서비스 런칭</p>
           <ul>
             <li>Monolithic → <b>MSA · EDA</b> 전환, 주문·장바구니 도메인 독립 배포 + Kafka 기반 이벤트 아키텍처</li>
-            <li>Webflux Consumer 레이어 <b>Thread Blocking 구간 규명·제거</b> → CoroutineCrudRepository로 Non-blocking 흐름 복구</li>
-            <li><code>@Transactional</code> 프록시 내부 호출 함정 규명 — 주문·결제 물리 분리로 트랜잭션 원자성 확보</li>
+            <li>Webflux Consumer 레이어 <b>Thread Blocking 구간 규명·제거</b> → CoroutineCrudRepository 로 Non-blocking 흐름 복구</li>
+            <li><code>@Transactional</code> 프록시 내부 호출 함정 규명, 주문·결제 물리 분리로 트랜잭션 원자성 확보</li>
             <li>Kotest 기반 통합 테스트 커버리지 <b>80%</b> 달성</li>
           </ul>
           <p class="stack">Kotlin · Spring Webflux · Coroutine · MongoDB · MSK · ECS · Docker</p>
@@ -240,9 +244,9 @@ a:focus-visible{outline:2px solid var(--accent); outline-offset:3px; border-radi
           </div>
           <p class="job-note">협업툴 '플로우' 엔터프라이즈 내부망(On-premise) 버전 개발</p>
           <ul>
-            <li>기업별 보안 모듈 커스터마이징 — 업로드·다운로드 제한, 문서 암호화 솔루션 연동, 폐쇄망 Linux 서버 구성</li>
+            <li>기업별 보안 모듈 커스터마이징: 업로드·다운로드 제한, 문서 암호화 솔루션 연동, 폐쇄망 Linux 서버 구성</li>
             <li>출근 시간대 수천 명 동시 접속 병목 진단 → 상태 데이터 <b>Redis 분리</b>로 메인 DB 트랜잭션 경합 해소</li>
-            <li>SOLID 기반 레거시 리팩토링 — 배포·QA 소요 <b>70% 단축</b> (3~5시간 → 30분~2시간)</li>
+            <li>SOLID 기반 레거시 리팩토링으로 배포·QA 소요 <b>70% 단축</b> (3~5시간 → 30분~2시간)</li>
           </ul>
           <p class="stack">Java · JSP · Postgres · Redis · Nginx · EC2</p>
         </div>
@@ -255,7 +259,7 @@ a:focus-visible{outline:2px solid var(--accent); outline-offset:3px; border-radi
           </div>
           <ul>
             <li>사내·법인 ERP 회계 모듈 유지보수 및 재무 프로세스 최적화</li>
-            <li>파일 저장 방식 소스 관리를 <b>VCS로 전환</b>하여 협업 효율성 제고</li>
+            <li>파일 저장 방식 소스 관리를 <b>VCS 로 전환</b>하여 협업 효율성 제고</li>
           </ul>
           <p class="stack">Java · OracleDB</p>
         </div>
@@ -264,14 +268,27 @@ a:focus-visible{outline:2px solid var(--accent); outline-offset:3px; border-radi
       <!-- AI-Native -->
       <section>
         <div class="sec-head"><h2>AI-Native Engineering</h2><div class="rule"></div></div>
-        <p class="job-note" style="margin-top:-.4rem;margin-bottom:1.2rem">AI를 코딩 보조가 아니라 엔지니어링 방식 자체로. 도메인 판단은 내가, 반복은 AI가 — 그 경계를 설계하고 팀에 배포합니다.</p>
-        <div class="ai-loop">자동화 → 시간 확보 → 고민·판단 → 기준화 → AI 하네스 → 더 정교한 자동화 → 반복</div>
+        <p class="job-note" style="margin-top:-.4rem;margin-bottom:1.2rem">AI 가 자동으로 할 수 있는 일은 환경을 만들어 맡기고, 그렇게 생긴 시간을 사람의 검토와 정제에 씁니다.</p>
+        <div class="ai-loop">자동화 → 시간 확보 → 사람의 검토·판단 → 기준화 → AI 하네스 → 더 정교한 자동화 → 반복</div>
         <ul style="list-style:none;padding:0;margin:1.3rem 0 0;display:flex;flex-direction:column;gap:.6rem">
-          <li style="padding-left:1.2rem;position:relative;font-size:15.5px;line-height:1.5"><span style="position:absolute;left:0;color:var(--accent);font-family:'IBM Plex Mono',monospace">◆</span> <b style="font-weight:500">자체 워크플로우 인프라</b> — Claude Code 스킬 25종·헬퍼 24종(<code style="font-family:'IBM Plex Mono',monospace;font-size:.85em">/start-day · /end-day · auto-doc</code>)으로 분석·구현·리뷰·문서화·배포를 한 줄 명령으로. 도입 후 merged PR 월 8.3 → <b>19.7건</b>(2.4배), 사용량은 세션 기록으로 실측</li>
-          <li style="padding-left:1.2rem;position:relative;font-size:15.5px;line-height:1.5"><span style="position:absolute;left:0;color:var(--accent);font-family:'IBM Plex Mono',monospace">◆</span> <b style="font-weight:500">멀티 에이전트 오케스트레이션</b> — cmux 기반 병렬 워크트리로 메인·서브 태스크 동시 진행, 메인 세션은 설계·검토·지휘에 집중</li>
-          <li style="padding-left:1.2rem;position:relative;font-size:15.5px;line-height:1.5"><span style="position:absolute;left:0;color:var(--accent);font-family:'IBM Plex Mono',monospace">◆</span> <b style="font-weight:500">지식 자산화 루프</b> — Obsidian 지식 저장소 <b>941문서 · ADR 216건 · 940페이지</b> 상시 발행. 인용 의무(코드 경로·commit SHA, 불가 시 TODO-VERIFY)·자동 린트·교차검증으로 LLM 산출물의 신뢰를 확보</li>
-          <li style="padding-left:1.2rem;position:relative;font-size:15.5px;line-height:1.5"><span style="position:absolute;left:0;color:var(--accent);font-family:'IBM Plex Mono',monospace">◆</span> <b style="font-weight:500">팀 정책 문서 hub + 플러그인</b> — 도메인 규칙 77건을 ID로 옮기고, 세션 시작 hook이 변경 파일 경로로 도메인을 추론해 규칙을 자동 주입. 팀 6명·리뷰 승인 필수 (2026-09 PoC)</li>
-          <li style="padding-left:1.2rem;position:relative;font-size:15.5px;line-height:1.5"><span style="position:absolute;left:0;color:var(--accent);font-family:'IBM Plex Mono',monospace">◆</span> <b style="font-weight:500">팀 확산</b> — AI 워크플로우 사례·AI Cowork 문서·팀원용 프롬프트 템플릿 공유, 개인 워크플로우를 일반화해 팀에 배포. 한 번 고생한 것이 팀의 자산이 되는 구조로 전환</li>
+          <li style="padding-left:1.2rem;position:relative;font-size:15.5px;line-height:1.5"><span style="position:absolute;left:0;color:var(--accent);font-family:'IBM Plex Mono',monospace">◆</span> <b style="font-weight:500">작업이 끝나면 문서가 남는 구조</b>: 티켓 분석 → 구현 → 리뷰 → PR → 문서 갱신을 Claude Code 스킬로 한 흐름으로. 문서화 시간을 따로 잡지 않아도 도메인 문서·트러블슈팅·ADR 이 같이 갱신됩니다 (ADR 279건 · 지식 문서 1,144건 · 1,060페이지 상시 발행)</li>
+          <li style="padding-left:1.2rem;position:relative;font-size:15.5px;line-height:1.5"><span style="position:absolute;left:0;color:var(--accent);font-family:'IBM Plex Mono',monospace">◆</span> <b style="font-weight:500">사람이 검토하는 단계</b>: 메인 세션은 설계·검토, 구현은 서브에이전트에 위임하고 결과 diff 를 직접 읽습니다. 근거(코드 경로·commit SHA) 없는 문장은 <code style="font-family:'IBM Plex Mono',monospace;font-size:.85em">TODO-VERIFY</code> 로 표시, 문서·코드 괴리는 린트로 탐지, 운영 판단은 DB 와 로그로 확인한 뒤에만 결론</li>
+          <li style="padding-left:1.2rem;position:relative;font-size:15.5px;line-height:1.5"><span style="position:absolute;left:0;color:var(--accent);font-family:'IBM Plex Mono',monospace">◆</span> <b style="font-weight:500">팀 정책 저장소 + 플러그인</b>: 코드를 열지 않아도 도메인 규칙에 답하는 저장소에 규칙 <b>432건</b>을 ID 로 이관. 세션 시작 hook 이 변경 파일 경로로 도메인을 추론해 규칙을 먼저 읽게 함. 팀원 5명 PR 12건, 정책 판정 누락 PR 은 4개 레포 CI 가 머지 차단</li>
+          <li style="padding-left:1.2rem;position:relative;font-size:15.5px;line-height:1.5"><span style="position:absolute;left:0;color:var(--accent);font-family:'IBM Plex Mono',monospace">◆</span> <b style="font-weight:500">Jira 상태 자동 전이</b>: PR 열림·승인·병합·닫힘·배포 5종 이벤트로 4개 레포 티켓 상태 전이, 코드 변경 0. 승인 시점을 KPI 종점으로 재정의(완료 40건 중 24건이 QA 미경유라는 실측)</li>
+          <li style="padding-left:1.2rem;position:relative;font-size:15.5px;line-height:1.5"><span style="position:absolute;left:0;color:var(--accent);font-family:'IBM Plex Mono',monospace">◆</span> <b style="font-weight:500">팀 확산</b>: "AI 시대의 엔지니어링" 팀 발표, PnE 아고라 발표, AI 워크플로 사례·프롬프트 템플릿 공유. 회고 후속으로 "AI 대화는 사람이 검토" 를 팀 규칙으로 공지</li>
+        </ul>
+      </section>
+
+      <!-- Product Leading & Collaboration -->
+      <section>
+        <div class="sec-head"><h2>Product Leading · Collaboration</h2><div class="rule"></div></div>
+        <ul style="list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:.6rem">
+          <li style="padding-left:1.2rem;position:relative;font-size:15.5px;line-height:1.5"><span style="position:absolute;left:0;color:var(--accent);font-family:'IBM Plex Mono',monospace">◆</span> <b style="font-weight:500">배포 일정 운영</b>: 리전별 리스트업 · 시각 확정(KST/PST/HKT 병기) · 사전 공지 74회. hotfix 6단계와 "main 머지 시점 = 배포 제어" 원칙 수립</li>
+          <li style="padding-left:1.2rem;position:relative;font-size:15.5px;line-height:1.5"><span style="position:absolute;left:0;color:var(--accent);font-family:'IBM Plex Mono',monospace">◆</span> <b style="font-weight:500">기획·코드 정책 정의</b>: 입고 고도화 PRD 661줄, 배송 요율 연동 PRD 318줄. 기획 단계에서 정해져야 할 항목을 먼저 짚어 Product 와 합의한 뒤 구현으로 넘깁니다</li>
+          <li style="padding-left:1.2rem;position:relative;font-size:15.5px;line-height:1.5"><span style="position:absolute;left:0;color:var(--accent);font-family:'IBM Plex Mono',monospace">◆</span> <b style="font-weight:500">회고 · KPI</b>: 2024-08 부터 스프린트 회고 24회 주최, 팀 성과 등급 기준 초안과 DORA Baseline 측정체계를 팀장 위임으로 작성</li>
+          <li style="padding-left:1.2rem;position:relative;font-size:15.5px;line-height:1.5"><span style="position:absolute;left:0;color:var(--accent);font-family:'IBM Plex Mono',monospace">◆</span> <b style="font-weight:500">운영 요청 인입 체계</b>: 엔지니어 직접 소통의 위험을 정리해 "설명과 확정의 분리" 제안, 고객사 채널 통합 · 인입 형식 · 긴급 기준 · 창구 일원화를 Slack 워크플로로 제품화</li>
+          <li style="padding-left:1.2rem;position:relative;font-size:15.5px;line-height:1.5"><span style="position:absolute;left:0;color:var(--accent);font-family:'IBM Plex Mono',monospace">◆</span> <b style="font-weight:500">인시던트 커뮤니케이션</b>: 장애가 나면 현상 → 원인 → 조치 → 재발 방지 순서로 직접 정리해 공유 (12건)</li>
+          <li style="padding-left:1.2rem;position:relative;font-size:15.5px;line-height:1.5"><span style="position:absolute;left:0;color:var(--accent);font-family:'IBM Plex Mono',monospace">◆</span> <b style="font-weight:500">코드 리뷰 문화</b>: 리뷰 요청 117 · 답글 85. readOnly 트랜잭션 단위 · V2 객체 규칙 · DDL 리뷰 표준을 팀 공통 규칙으로</li>
         </ul>
       </section>
 
@@ -279,14 +296,15 @@ a:focus-visible{outline:2px solid var(--accent); outline-offset:3px; border-radi
       <section>
         <div class="sec-head"><h2>Now Thinking About</h2><div class="rule"></div></div>
         <ul style="list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:.7rem">
-          <li style="padding-left:1.1rem;position:relative;font-size:15.5px"><span style="position:absolute;left:0;color:var(--accent);font-family:'IBM Plex Mono',monospace">→</span> 이상을 숨기는 시스템 vs. 이상을 드러내는 시스템 — 그 차이를 만드는 설계 결정들</li>
-          <li style="padding-left:1.1rem;position:relative;font-size:15.5px"><span style="position:absolute;left:0;color:var(--accent);font-family:'IBM Plex Mono',monospace">→</span> 비즈니스 정책이 코드에 정확히 구현됐는지 확인하는 방법, 그리고 잘못됐을 때 어떻게 발견되는가</li>
-          <li style="padding-left:1.1rem;position:relative;font-size:15.5px"><span style="position:absolute;left:0;color:var(--accent);font-family:'IBM Plex Mono',monospace">→</span> 자동화가 사람의 반복을 줄이고, 그 자동화가 다시 도메인 지식을 쌓는 사이클</li>
+          <li style="padding-left:1.1rem;position:relative;font-size:15.5px"><span style="position:absolute;left:0;color:var(--accent);font-family:'IBM Plex Mono',monospace">→</span> 어떤 모델을 쓰느냐보다 그 모델이 제대로 일할 환경을 어떻게 만드느냐</li>
+          <li style="padding-left:1.1rem;position:relative;font-size:15.5px"><span style="position:absolute;left:0;color:var(--accent);font-family:'IBM Plex Mono',monospace">→</span> 자동화로 만든 시간을 사람의 검토와 정제에 쓰는 구조</li>
+          <li style="padding-left:1.1rem;position:relative;font-size:15.5px"><span style="position:absolute;left:0;color:var(--accent);font-family:'IBM Plex Mono',monospace">→</span> 이상을 숨기는 시스템과 드러내는 시스템, 그 차이를 만드는 설계 결정</li>
+          <li style="padding-left:1.1rem;position:relative;font-size:15.5px"><span style="position:absolute;left:0;color:var(--accent);font-family:'IBM Plex Mono',monospace">→</span> 한 번 고생한 것이 팀의 자산으로 남는 구조</li>
         </ul>
       </section>
 
       <div class="foot">
-        <span>Jay King · 모준서 · Backend Engineer</span>
+        <span>Jay King · 모준서 · Product Lead Engineer</span>
         <a href="https://github.com/jaykingg" target="_blank" rel="noopener">github.com/jaykingg ↗</a>
       </div>
     </main>
